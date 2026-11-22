@@ -1,0 +1,18 @@
+
+home: 'experiments'
+
+train_data: "experiments/2024-04-29_20:43:17.037037/output/ger_train_pseudolabels.txt"
+validation_data: "experiments/2024-04-29_20:43:17.037037/output/ger_val_pseudolabels.txt"
+
+train_embeddings: embeddings/2024-04-29_20:57:53.161135/ger_train.ebd.pt
+val_embeddings: embeddings/2024-04-29_20:57:53.161135/ger_val.ebd.pt
+experiments-path: "experiments"
+
+hidden_dim: 100
+embedding_dim: 768
+device: cpu
+
+learning_rate: 2.0e-05
+epocs: 3
+warmup: 0
+pretrained_model: ''

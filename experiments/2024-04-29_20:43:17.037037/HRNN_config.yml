@@ -1,0 +1,18 @@
+
+home: 'experiments'
+
+train_data: "data/en_pseudo_labels/train.txt"
+validation_data: "data/en_ground_truths/val.txt"
+
+train_embeddings: embeddings/2024-04-29_20:20:41.930953/en_train.ebd.pt
+val_embeddings: embeddings/2024-04-29_20:20:41.930953/en_val.ebd.pt
+experiments-path: "experiments"
+
+hidden_dim: 100
+embedding_dim: 768
+device: cpu
+
+learning_rate: 2.0e-05
+epocs: 3
+warmup: 0
+pretrained_model: ''

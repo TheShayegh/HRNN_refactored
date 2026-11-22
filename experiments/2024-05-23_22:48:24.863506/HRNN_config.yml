@@ -1,0 +1,18 @@
+
+home: 'experiments'
+
+train_data: "experiments/2024-05-02_01:47:17.840621/output/dutch_train_pseudolabels.txt"
+validation_data: "experiments/2024-05-02_01:47:17.840621/output/dutch_val_pseudolabels.txt"
+
+train_embeddings: embeddings/2024-05-23_00:21:11.276841/dutch_train.ebd.pt
+val_embeddings: embeddings/2024-05-23_00:21:11.276841/dutch_val.ebd.pt
+experiments-path: "experiments"
+
+hidden_dim: 100
+embedding_dim: 768
+device: cpu
+
+learning_rate: 2.0e-05
+epocs: 3
+warmup: 0
+pretrained_model: ''
