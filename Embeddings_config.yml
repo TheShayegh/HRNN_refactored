@@ -1,0 +1,8 @@
+sentences-files:
+ - "data/dutch_sentences/val.txt"
+
+embeddings-path: "embeddings"
+embedding_token_heuristic: "mean"
+bert_pretrained_weights: "bert-base-multilingual-cased" #change this
+embedding_dim: 768
+device: cpu

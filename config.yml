@@ -1,0 +1,28 @@
+
+home: 'experiments'
+
+sentences-files:
+ - "data/german_sentences/train.txt"
+ - "data/german_sentences/val.txt"
+ - "data/german_sentences/test.txt"
+
+train_data: "experiments/2024-04-21_22:53:22.700753/output/due_train_pseudolabels.txt"
+validation_data: "experiments/2024-04-21_22:53:22.700753/output/due_val_pseudolabels.txt"
+
+train_embeddings: embeddings/2024-04-15_21:04:17.971824/train.ebd.pt
+val_embeddings: embeddings/2024-04-15_21:04:17.971824/val.ebd.pt
+experiments-path: "experiments"
+
+embedding-flag: Bert
+embeddings-path: "embeddings"
+embedding-output-name: "validation_embeddings"
+embedding_token_heuristic: "mean"
+bert_pretrained_weights: "bert-base-multilingual-cased" #change this
+hidden_dim: 100
+embedding_dim: 768
+device: cpu
+
+learning_rate: 2.0e-05
+epocs: 5
+warmup: 0
+pretrained_model: ''
